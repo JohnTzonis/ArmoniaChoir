@@ -3937,6 +3937,9 @@ p {
     margin-left: 0;
     width: 90%;
   }
+  .date-in-header, .title-in-header, .title-in-header-b {
+    display: none;
+  }
  }
 
  @media screen and (min-width: 480px) and (max-width: 1200px) {
