@@ -1993,7 +1993,7 @@ h6 {
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.8);
   transition: all 0.5s;
-  height: 187px;
+  height: 240px;
 }
 
 @media (max-width: 673px) {
@@ -3648,10 +3648,12 @@ p {
 }
 
 .download-btn {
+  display: flex;
+  width: 15%;
+  margin: auto;
   position: relative;
-  right: 0;
-  top: 10px;
-  font-size: .5rem;
+  top: -60px;
+  font-size: .65rem;
 }
 
 .text-underline {
@@ -3721,7 +3723,7 @@ p {
   position: absolute;
   width: 14%;
   margin-left: 5px;
-  top: 30px;
+  top: 7px;
 }
 
 #logo-image-b {
@@ -3744,6 +3746,9 @@ p {
   height: 440px;
 }
 
+.height-zero {
+  height: 0px;
+}
 /* RESPONSIVE FORMAT */
 
 
@@ -3753,7 +3758,8 @@ p {
 
 @media (max-width: 480px) {
   #logo-img {
-   width: 150px;
+   width: 80px;
+   top: 22px;
   }
   #logo-image-b {
    width: 150px;
@@ -3908,7 +3914,6 @@ p {
      position: relative;
    }
    .download-b {
-     position: absolute;
      left: auto;
      margin: auto;
      margin-top: 20px;
@@ -3939,6 +3944,9 @@ p {
   }
   .date-in-header, .title-in-header, .title-in-header-b {
     display: none;
+  }
+  #header.header-scrolled {
+    height: 120px;
   }
  }
 
