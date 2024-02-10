@@ -3767,13 +3767,13 @@ p {
    }
    #main-quote {
      width: 100%;
-     margin-top: 120px;
+     margin-top: 50px;
      position: absolute;
      top: 200px;
    }
    #main-quote h1 {
      position: absolute;
-     top: 20px;
+     height: 120px;
    }
    .quote-left {
      width: 100%;
@@ -3789,17 +3789,17 @@ p {
      width: 90%;
    }
    .date-in-header {
-     top: 600px;
-     margin-left: 30px;
+     top: 400px;
+     margin-left: 130px;
      font-size: 1rem;
    }
    .title-in-header {
-     top: 625px;
+     top: 425px;
      margin-left: 30px;
      font-size: 1rem;
    }
    .title-in-header-b {
-     top: 670px;
+     top: 470px;
      margin-left: 30px;
      font-size: 1rem;
    }
