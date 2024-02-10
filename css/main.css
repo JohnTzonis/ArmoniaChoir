@@ -58,11 +58,11 @@
 }
 
 body {
-  color: #777777;
+  color: #656565;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-weight: 300;
-  line-height: 1.625em;
+  line-height: 1.725em;
   position: relative;
 }
 
@@ -194,6 +194,9 @@ th {
   border-radius: 0px;
 }
 
+p {
+  font-size: 16px;
+}
 /**
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the
@@ -783,6 +786,10 @@ th {
   padding-right: 0;
 }
 
+.container > p, .container li {
+  font-size: 16px;
+}
+
 .no-padding {
   padding: 0;
 }
@@ -1118,7 +1125,9 @@ h6 {
   background: #f9f9ff;
   border-left: 2px solid #2B287A;
   font-size: 1rem;
-  font-family: 'Roboto';
+  font-family: 'Rubik';
+  font-weight: 500;
+  color: #06122D;
 }
 
 .progress-table-wrap {
@@ -1941,7 +1950,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  padding: 0px 0px 0px 0;
+  padding: 0px 0px 14px 0;
   position: fixed;
   left: 0;
   top: 0;
@@ -1993,7 +2002,7 @@ h6 {
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.8);
   transition: all 0.5s;
-  height: 240px;
+  height: 90px;
 }
 
 @media (max-width: 673px) {
@@ -2145,6 +2154,7 @@ h6 {
 
 .nav-menu ul li:hover > a {
   color: #2B287A;
+  background-color: rgb(225, 223, 223);
 }
 
 .nav-menu ul ul {
@@ -2156,7 +2166,7 @@ h6 {
   position: fixed;
   right: 15px;
   z-index: 999;
-  top: 50px;
+  top: 28px;
   border: 0;
   background: none;
   font-size: 24px;
@@ -3648,12 +3658,10 @@ p {
 }
 
 .download-btn {
-  display: flex;
-  width: 15%;
-  margin: auto;
   position: relative;
-  top: -60px;
-  font-size: .65rem;
+  right: 0;
+  top: 10px;
+  font-size: .5rem;
 }
 
 .text-underline {
@@ -3721,9 +3729,8 @@ p {
 
 #logo-img {
   position: absolute;
-  width: 14%;
-  margin-left: 5px;
-  top: 7px;
+  width: 75px;
+  top: 8px;
 }
 
 #logo-image-b {
@@ -3746,24 +3753,10 @@ p {
   height: 440px;
 }
 
-.height-zero {
-  height: 0px;
-}
 /* RESPONSIVE FORMAT */
 
 
-
-
-
-
 @media (max-width: 480px) {
-  #logo-img {
-   width: 22%;
-   top: 16px;
-  }
-  #logo-image-b {
-   width: 150px;
-  }
   .quote-left h1 {
      font-size: 20px;
      text-align: center;
@@ -3914,6 +3907,7 @@ p {
      position: relative;
    }
    .download-b {
+     position: absolute;
      left: auto;
      margin: auto;
      margin-top: 20px;
@@ -3941,12 +3935,6 @@ p {
     margin: auto;
     margin-left: 0;
     width: 90%;
-  }
-  .date-in-header, .title-in-header, .title-in-header-b {
-    display: none;
-  }
-  #header.header-scrolled {
-    height: 120px;
   }
  }
 
@@ -3982,14 +3970,7 @@ p {
   .mainLabel {
     color: #2B287A !important;
   }
-  #logo-img {
-   top: 60px;
-    width: 180px;
-   }
-   #logo-image-b {
-    width: 250px;
-   }
-   .date-in-header {
+  .date-in-header {
     top: 540px;
     margin-left: 30px;
     font-size: 1rem;
@@ -4035,8 +4016,6 @@ p {
     margin: auto;
     margin-left: 0;
     width: 100%;
-  }.width-80 {
-    width: 80%;
   }
   /* .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
     padding: 0;
