@@ -3616,6 +3616,7 @@ blockquote {
   border-left: 4px solid #ccc;
   font-size: 0.7rem;
   text-align: justify;
+  font-family: 'Rubik';
 }
 
 .same-size {
@@ -3637,9 +3638,9 @@ blockquote {
 
 #demonstrative_choirs {
   font-size: 1rem;
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Rubik';
   /* letter-spacing: 0.05ch; */
-  font-weight: 300;
+  font-weight: 400;
   color: black;
 }
 
