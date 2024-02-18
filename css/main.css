@@ -206,6 +206,7 @@ p {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
+
 .clear::before,
 .clear::after {
   content: ' ';
@@ -2162,6 +2163,29 @@ h6 {
   margin: 0;
 }
 
+.flag-container {
+  margin-top: 18px;
+  display: flex;
+  margin-left: 28px;
+}
+
+#flags {
+  width: 35px;
+  height: 35px;
+}
+
+#flag-button-a {
+  margin: 0px;
+  padding: 0px;
+  border-radius: 50%;
+}
+
+#flag-button {
+  margin: 0px;
+  padding: 0px;
+  border-radius: 50%;
+}
+
 /* Mobile Nav Toggle */
 #mobile-nav-toggle {
   position: fixed;
@@ -3655,6 +3679,7 @@ p {
 
 .mainLabel {
   color: rgb(172, 40, 64) !important;
+  text-shadow: 0 2px 2px black;
 }
 
 .download-btn {
@@ -3756,6 +3781,10 @@ p {
 /* RESPONSIVE FORMAT */
 
 @media (max-width: 480px) {
+  h3 {
+    font-size: 15px;
+    line-height: 2ch;
+  }
   .quote-left h1 {
     font-size: 20px;
     text-align: center;
@@ -3783,6 +3812,7 @@ p {
   }
   .mainLabel {
     color: #2b287a !important;
+    text-shadow: 0.5px 0.5px white;
   }
   .main-news-titles {
     width: 90%;
@@ -3825,6 +3855,19 @@ p {
     align-items: center !important;
     margin: auto;
   }
+  .flag-container {
+    margin-left: 120px;
+  }
+  #flags {
+    width: 35px;
+    height: 35px;
+  }
+
+  #flag-button {
+    margin: 0px;
+    padding: 0px;
+    border-radius: 50%;
+  }
   #home-b {
     height: 300px;
   }
@@ -3851,6 +3894,8 @@ p {
     width: 100%;
     padding: 5px;
     margin-top: 10px;
+    font-size: 14px;
+    letter-spacing: 0;
   }
   .generic-blockquote-b {
     font-family: serif;
@@ -3901,7 +3946,7 @@ p {
   .download-btn {
     display: flex;
     margin: auto;
-    width: 70%;
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -3910,10 +3955,13 @@ p {
     position: relative;
   }
   .download-b {
-    position: absolute;
+    position: relative;
     left: auto;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 23px;
+  }
+  .mobile-download {
+    padding: 25px;
   }
   .mtop-30 {
     margin-top: 90px;
