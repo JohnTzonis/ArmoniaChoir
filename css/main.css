@@ -1142,7 +1142,7 @@ h6 {
   padding: 30px 50px 30px 30px;
   background: #f9f9ff;
   border-left: 2px solid #2b287a;
-  font-size: 0.7rem;
+  font-size: 16px;
   font-family: sans-serif;
   font-weight: 300;
   color: #06122d;
@@ -3964,4 +3964,14 @@ p {
     padding: 0px;
     border-radius: 50%;
   }
+}
+
+
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+ul {
+  font-size: 16px;
 }
