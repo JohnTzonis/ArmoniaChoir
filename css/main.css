@@ -1144,8 +1144,9 @@ h6 {
   border-left: 2px solid #2b287a;
   font-size: 0.7rem;
   font-family: sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   color: #06122d;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .progress-table-wrap {
