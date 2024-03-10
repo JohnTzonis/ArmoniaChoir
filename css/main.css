@@ -137,7 +137,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Poppins', sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #222222;
   line-height: 1.2em !important;
   margin-bottom: 0;
@@ -800,6 +800,22 @@ p {
   background: #f9fafc;
 }
 
+.translate {
+  position: absolute;
+  right: 15px;
+  top: 30px;
+}
+/* .translated {
+  display: none;
+} */
+.greek-lang {
+  text-decoration: none;
+  color: white;
+}
+.follow-us {
+  margin-left: 0px;
+}
+
 @media (max-width: 767px) {
   .no-flex-xs {
     display: block !important;
@@ -1126,9 +1142,9 @@ h6 {
   padding: 30px 50px 30px 30px;
   background: #f9f9ff;
   border-left: 2px solid #2b287a;
-  font-size: 1rem;
-  font-family: 'Rubik';
-  font-weight: 500;
+  font-size: 0.7rem;
+  font-family: sans-serif;
+  font-weight: 400;
   color: #06122d;
 }
 
@@ -2206,7 +2222,7 @@ h6 {
   font-weight: 900;
 }
 
-@media (max-width: 1285px) {
+@media (max-width: 1380px) {
   #mobile-nav-toggle {
     display: inline;
   }
@@ -3625,6 +3641,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .schedule {
   list-style: none;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .schedule-events {
@@ -3639,7 +3660,7 @@ blockquote {
   border-left: 4px solid #ccc;
   font-size: 0.7rem;
   text-align: justify;
-  font-family: 'Rubik';
+  font-family: sans-serif;
 }
 
 .same-size {
@@ -3658,10 +3679,16 @@ blockquote {
   max-height: 65px;
   max-width: 65px;
 }
+.single-choir {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
 
 #demonstrative_choirs {
-  font-size: 1rem;
-  font-family: 'Rubik';
+  font-size: 0.7rem;
+  font-family: sans-serif;
   /* letter-spacing: 0.05ch; */
   font-weight: 400;
   color: black;
@@ -3679,7 +3706,10 @@ p {
 
 .mainLabel {
   color: rgb(172, 40, 64) !important;
-  text-shadow: 0 2px 2px black;
+  letter-spacing: 0.1ch;
+  text-shadow: -0.5px -0.5px rgb(92, 192, 250), 0.5px 0.5px
+  /* black, 0.5px -0.5px black,
+    -0.5px 0.5px black; */
 }
 
 .download-btn {
@@ -3779,215 +3809,6 @@ p {
 }
 
 /* RESPONSIVE FORMAT */
-
-@media (max-width: 480px) {
-  h3 {
-    font-size: 15px;
-    line-height: 2ch;
-  }
-  .quote-left h1 {
-    font-size: 20px;
-    text-align: center;
-    font-weight: 100;
-    height: 300px;
-    width: 90%;
-    position: absolute;
-  }
-  #main-quote {
-    width: 100%;
-    margin-top: 50px;
-    position: absolute;
-    top: 200px;
-  }
-  #main-quote h1 {
-    position: absolute;
-    height: 120px;
-  }
-  .quote-left {
-    width: 100%;
-    right: auto;
-    top: 150px;
-    position: absolute;
-    top: 20px;
-  }
-  .mainLabel {
-    color: #2b287a !important;
-    text-shadow: 0.5px 0.5px white;
-  }
-  .main-news-titles {
-    width: 90%;
-  }
-  .date-in-header {
-    top: 400px;
-    margin-left: 130px;
-    font-size: 1rem;
-  }
-  .title-in-header {
-    top: 425px;
-    margin-left: 30px;
-    font-size: 1rem;
-  }
-  .title-in-header-b {
-    top: 470px;
-    margin-left: 30px;
-    font-size: 1rem;
-  }
-  /* .banner-area {
-     background-size: 300%;
-   } */
-  .active-exibition-carusel {
-    margin: auto;
-    width: 90%;
-  }
-  .footer-area {
-    padding-top: 20px;
-  }
-  .single-footer-widget {
-    text-align: center;
-  }
-  .single-footer-widget > h6 {
-    margin-top: 20px;
-  }
-  .footer-social a {
-    padding: 0;
-    margin: 0;
-    text-align: center !important;
-    align-items: center !important;
-    margin: auto;
-  }
-  .flag-container {
-    margin-left: 120px;
-  }
-  #flags {
-    width: 35px;
-    height: 35px;
-  }
-
-  #flag-button {
-    margin: 0px;
-    padding: 0px;
-    border-radius: 50%;
-  }
-  #home-b {
-    height: 300px;
-  }
-  .main-choir,
-  .tags-widget,
-  .recent-posts-widget,
-  .nav-area,
-  .history-image {
-    display: none;
-  }
-  .section-gap {
-    padding: 0;
-  }
-  .single-info {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  .single-info > div {
-    margin-bottom: 0;
-  }
-  .generic-blockquote {
-    font-family: serif;
-    color: black;
-    width: 100%;
-    padding: 5px;
-    margin-top: 10px;
-    font-size: 14px;
-    letter-spacing: 0;
-  }
-  .generic-blockquote-b {
-    font-family: serif;
-    color: black;
-    width: 100%;
-    padding: 5px;
-    font-size: 15px;
-    margin: 5px;
-
-    margin-top: 20px;
-  }
-  .info-area {
-    margin-bottom: 0;
-  }
-  .info-right {
-    margin-top: 0px;
-  }
-  .centered-text {
-    text-align: center;
-  }
-  .title > h3 {
-    margin-top: 20px;
-  }
-  .thumb img {
-    align-items: center;
-    margin-left: 20px;
-    padding: 0;
-  }
-  .img-fluid {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  .section-top-border {
-    padding: 0;
-  }
-  .section-top-border > h3 {
-    padding: 0;
-    margin-top: 20px;
-    margin-bottom: 5px;
-  }
-  .row {
-    margin: auto;
-  }
-  .row-b > div ul {
-    border-bottom: 1px solid black;
-    margin-bottom: 20px;
-  }
-  .download-btn {
-    display: flex;
-    margin: auto;
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    right: auto;
-    top: auto;
-    position: relative;
-  }
-  .download-b {
-    position: relative;
-    left: auto;
-    margin: auto;
-    margin-top: 23px;
-  }
-  .mobile-download {
-    padding: 25px;
-  }
-  .mtop-30 {
-    margin-top: 90px;
-  }
-  .date-in-header {
-    top: 500px;
-    margin-left: 30px;
-    font-size: 1rem;
-  }
-  .title-in-header {
-    top: 530px;
-    margin-left: 30px;
-    font-size: 1rem;
-  }
-  .title-in-header-b {
-    top: 580px;
-    margin-left: 30px;
-    font-size: 1rem;
-  }
-  .same-size-b {
-    height: auto;
-    margin: auto;
-    margin-left: 0;
-    width: 90%;
-  }
-}
 
 @media screen and (min-width: 480px) and (max-width: 1200px) {
   .quote-left h1 {
@@ -4121,8 +3942,25 @@ p {
   }
 }
 
-@media screen and (min-width: 991px) and (max-width: 1200px) {
+@media screen and (min-width: 991px) and (max-width: 1380px) {
   .same-size {
     width: auto;
+  }
+  .translate {
+    top: 7px;
+    left: 7px;
+  }
+  .flag-container {
+    margin-left: 120px;
+  }
+  #flags {
+    width: 22px;
+    height: 22px;
+  }
+
+  #flag-button {
+    margin: 0px;
+    padding: 0px;
+    border-radius: 50%;
   }
 }
