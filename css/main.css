@@ -2347,6 +2347,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   .section-title p br {
     display: none;
   }
+  #logo {
+    margin-bottom: 30px;
+  }
 }
 
 .primary-btn {
@@ -3957,8 +3960,8 @@ p {
     margin-left: 120px;
   }
   #flags {
-    width: 22px;
-    height: 22px;
+    width: 26px;
+    height: 26px;
   }
 
   #flag-button {
